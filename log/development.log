@@ -1,0 +1,38 @@
+
+
+Started GET "/movies" for 82.113.99.92 at 2017-04-11 00:34:57 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 793ms (Views: 780.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/actors.css?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
+
+
+Started GET "/assets/movies.css?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
+
+
+Started GET "/assets/application.css?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
+
+
+Started GET "/assets/communication.js?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
+
+
+Started GET "/assets/actors.js?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
+
+
+Started GET "/assets/movies.js?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 82.113.99.92 at 2017-04-11 00:34:58 +0000
